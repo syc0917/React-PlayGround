@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/Home.js'
 import Theme from './components/Theme.js'
 import Apexcharts from './components/Apexcharts.js'
+import MTable from './components/MTable.js'
 import { ThemeProvider, CssBaseline } from "@material-ui/core";
 import { light } from "./theme";
 
@@ -18,6 +19,7 @@ function App() {
           <Route path={"/"} render={()=><Home />} exact/>
           <Route path={"/Theme"} render={()=><Theme />} />
           <Route path={"/Apexcharts"} render={()=><Apexcharts />} />
+          <Route path={"/MTable"} render={()=><MTable />} />
         
         
         

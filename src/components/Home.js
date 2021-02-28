@@ -30,6 +30,11 @@ function Home(props){
                     Apexcharts
                     </Link>
                 </Button>
+                <Button>
+                    <Link className={classes.link} to="/MTable">
+                    MTable
+                    </Link>
+                </Button>
                 
             </header>
         </div>
