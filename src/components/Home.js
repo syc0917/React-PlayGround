@@ -8,7 +8,8 @@ function Home(props){
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
-                Edit <code>src/App.js</code> and save to reload.
+                
+                建立新的页面<code>src/components</code> 接着在<code>App.js</code>添加路由指向新页面, 并在<code>src/components/Home.js</code>添加<Link />Button
                 </p>
                 <Button>
                 <Link to="/Theme">
