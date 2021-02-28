@@ -12,7 +12,7 @@ function Initial(props){
                 </p>
                 <Button>
                 <Link to="/Theme">
-                    Start
+                    Theme
                 </Link>
                 </Button>
                 
