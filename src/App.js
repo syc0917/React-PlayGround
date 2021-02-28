@@ -1,7 +1,7 @@
 
 import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import './App.css';
-import Initial from './components/Initial.js'
+import Home from './components/Home.js'
 import Theme from './components/Theme.js'
 import { ThemeProvider, CssBaseline } from "@material-ui/core";
 import { light } from "./theme";
@@ -14,7 +14,7 @@ function App() {
       <CssBaseline />
       <Router>
         <Switch>
-          <Route path={"/"} render={()=><Initial />} exact/>
+          <Route path={"/"} render={()=><Home />} exact/>
           <Route path={"/Theme"} render={()=><Theme />} />
         
         

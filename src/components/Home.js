@@ -2,7 +2,7 @@ import logo from '../logo.svg';
 import { Link } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 
-function Initial(props){
+function Home(props){
     return (
         <div className="App">
             <header className="App-header">
@@ -21,4 +21,4 @@ function Initial(props){
     )
 }
 
-export default Initial;
+export default Home;
