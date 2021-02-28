@@ -1,0 +1,6 @@
+function Apexcharts(props){
+    return(
+        <>
+        </>
+    )
+}
