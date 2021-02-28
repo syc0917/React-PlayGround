@@ -22,7 +22,7 @@ function Home(props){
                 </p>
                 <Button>
                     <Link className={classes.link} to="/Theme">
-                        Theme
+                    Theme
                     </Link>
                 </Button>
                 <Button>

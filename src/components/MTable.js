@@ -21,7 +21,7 @@ function StylingWithMuiThemeProvider() {
         main: '#ff9100',
       },
     },
-    
+
   });
 
   return (
@@ -41,6 +41,24 @@ function StylingWithMuiThemeProvider() {
           },
         ]}
         data={[
+          { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+          { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
+          { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+          { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
+          { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+          { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
+          { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+          { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
+          { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+          { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
+          { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+          { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
+          { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+          { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
+          { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+          { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
+          { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
+          { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
           { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
           { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
         ]}
