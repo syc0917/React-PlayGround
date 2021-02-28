@@ -25,6 +25,11 @@ function Home(props){
                         Theme
                     </Link>
                 </Button>
+                <Button>
+                    <Link className={classes.link} to="/Apexcharts">
+                    Apexcharts
+                    </Link>
+                </Button>
                 
             </header>
         </div>

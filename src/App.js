@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-do
 import './App.css';
 import Home from './components/Home.js'
 import Theme from './components/Theme.js'
+import Apexcharts from './components/Apexcharts.js'
 import { ThemeProvider, CssBaseline } from "@material-ui/core";
 import { light } from "./theme";
 
@@ -16,6 +17,7 @@ function App() {
         <Switch>
           <Route path={"/"} render={()=><Home />} exact/>
           <Route path={"/Theme"} render={()=><Theme />} />
+          <Route path={"/Apexcharts"} render={()=><Apexcharts />} />
         
         
         
